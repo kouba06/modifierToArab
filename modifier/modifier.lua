@@ -2,8 +2,8 @@ local M = {}
 
 local letters = {}
 
-local unicode = require "main.modifierToArab.unicode"
-local rev = require "main.modifierToArab.reverse"
+local unicode = require "main.modifier.unicode"
+local rev = require "main.modifier.reverse"
 
 local format = string.format
 local byte   = string.byte
